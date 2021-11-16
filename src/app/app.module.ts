@@ -6,8 +6,10 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { NavBar } from './nav-bar/nav-bar.component';
 
+import { MatToolbarModule } from '@angular/material/toolbar';
+
 @NgModule({
-  imports: [BrowserModule, FormsModule],
+  imports: [BrowserModule, FormsModule, MatToolbarModule],
   declarations: [AppComponent, HelloComponent, NavBar],
   bootstrap: [AppComponent],
 })
